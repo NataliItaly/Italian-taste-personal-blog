@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: var(--primary-color);
+}
+
+.header__title {
+    font-size: 8rem;
+    padding-bottom: 30px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.header__link {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 2.4rem;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+.header__link:hover {
+    color: var(--hover-text-color);
+}

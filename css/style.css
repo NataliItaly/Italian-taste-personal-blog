@@ -1,0 +1,52 @@
+@import "./container.css";
+@import "./header.css";
+@import "./social.css";
+@import "./main.css";
+@import "./section.css";
+@import "./flex-block.css";
+@import "./block-grid.css";
+@import "./button.css";
+@import "./card.css";
+@import "./footer.css";
+
+:root {
+    --primary-color: #EFDDB8;
+    --secondary-color: #9E8042;
+    --primary-text-color: #473B24;
+    --hover-text-color: #55472c;
+    --terziary-color: #F2EDE3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Gabriela', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}

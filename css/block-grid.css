@@ -1,0 +1,10 @@
+.block-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    justify-content: center;
+    row-gap: 4rem;
+    column-gap: 3rem;
+    padding: 4rem 0;
+}
+
+ 

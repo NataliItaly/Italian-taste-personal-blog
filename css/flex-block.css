@@ -1,0 +1,23 @@
+.flex-block {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.flex-block_reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-block__column {
+    width: calc(35% - 4rem);
+}
+
+.flex-block__column_image {
+    width: 65%;
+}
+
+.flex-block__image {
+    width: 100%;
+    height: auto;
+}

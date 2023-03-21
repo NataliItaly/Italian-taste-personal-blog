@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabriela&family=PT+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Taste of Italy - Italian Food Blog</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">Italian Taste</h1>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#about" class="header__link">About Italy</a></li>
+                    <li class="header__item"><a href="#diary" class="header__link">Diary</a></li>
+                    <li class="header__item"><a href="#who" class="header__link">Who we are</a></li>
+                    <li class="header__item"><a href="#contacts" class="header__link">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <ul class="social__list">
+                    <li class="social__item"><a href="" class="social__link social__link_facebook"></a></li>
+                    <li class="social__item"><a href="" class="social__link social__link_instagram"></a></li>
+                    <li class="social__item"><a href="" class="social__link social__link_youtube"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section section_about" id="about">
+            <div class="container">
+                <div class="flex-block">
+                    <div class="flex-block__column">
+                        <h2 class="section__title">Discover Italy</h2>
+                        <div>
+                            <p class="section__text">
+                                Italy is a country in Southern Europe. Located in the middle of the Mediterranean Sea, it consists of a peninsula delimited by the Alps and surrounded by several islands; its territory largely coincides with the homonymous geographical region. Italy shares land borders with France, Switzerland, Austria, Slovenia and the enclaved microstates of Vatican City and San Marino. It covers an area of 301,230 km2 with a population of about 60 million. It is the third-most populous member state of the European Union, the sixth-most populous country in Europe, and the tenth-largest country in the continent by land area. Italy's capital and largest city is Rome.
+                            </p>
+                        </div>
+                        <a href="https://en.wikipedia.org/wiki/Italy" class="section__link" target="_blank">Learn more</a>
+                    </div>
+                    <div class="flex-block__column flex-block__column_image">
+                        <img class="flex-block__image" src="./images/about-img.jpg" alt="Old tower in Positano, Amalfy coast, Mediterranean sea">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section_diary" id="about">
+            <div class="container">
+                <h2 class="section__title">Diary</h2>
+                <ul class="block-grid">
+                    <li class="block-grid__item">
+                        <a href="" class="block-grid__link card">
+                            <h3 class="card__title">Choose season's vegetables</h3>
+                            <p class="card__date"><time class="card__time">20.03.2023</time></p>
+                            <div class="card__image-wrapper">
+                                <img src="./images/diary-images/1.jpg" alt="red tomatoes with fresh green celary" class="card__image">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="block-grid__item">
+                        <a href="" class="block-grid__link card">
+                            <h3 class="card__title">Cherry jam's secrets</h3>
+                            <p class="card__date"><time class="card__time">10.03.2023</time></p>
+                            <div class="card__image-wrapper">
+                                <img src="./images/diary-images/2.jpg" alt="fresh red cherries in orange pot" class="card__image">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="block-grid__item">
+                        <a href="" class="block-grid__link card">
+                            <h3 class="card__title">Simple recipe with spaghetti</h3>
+                            <p class="card__date"><time class="card__time">25.01.2023</time></p>
+                            <div class="card__image-wrapper">
+                                <img src="./images/diary-images/3.jpg" alt="italian dry spaghetti with fresh tomatoes" class="card__image">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="block-grid__item">
+                        <a href="" class="block-grid__link card">
+                            <h3 class="card__title">Unexpected pancake</h3>
+                            <p class="card__date"><time class="card__time">06.01.2023</time></p>
+                            <div class="card__image-wrapper">
+                                <img src="./images/diary-images/4.jpg" alt="delicious pancakes decorated with fresh cherries" class="card__image">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="block-grid__item">
+                        <a href="" class="block-grid__link card">
+                            <h3 class="card__title">How to choose spaghetti</h3>
+                            <p class="card__date"><time class="card__time">28.12.2022</time></p>
+                            <div class="card__image-wrapper">
+                                <img src="./images/diary-images/5.jpg" alt="italian dry spaghetti in wicker basket" class="card__image">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="block-grid__item">
+                        <a href="" class="block-grid__link card">
+                            <h3 class="card__title">Wine or rice? Let's try both</h3>
+                            <p class="card__date"><time class="card__time">15.11.2022</time></p>
+                            <div class="card__image-wrapper">
+                                <img src="./images/diary-images/6.jpg" alt="italian red wine rice with a glass of red wine" class="card__image">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <button class="button">Find more posts</button>
+            </div>
+        </section>
+
+        <section class="section section_ingredients  section_alternative">
+            <div class="container">
+                <div class="flex-block flex-block_reverse">
+                    <div class="flex-block__column">
+                        <h2 class="section__title">Lots of fresh vegetables</h2>
+                        <div>
+                            <p class="section__text">
+                                When most people think of Italian food, their minds immediately go to pizza, pasta, and other delicious, carb-heavy foods. These dishes are undoubtedly important within the Italian tradition. However, authentic Italian food lovers know that the cuisine uses popular vegetables just as often as it uses dough. Here are some of the secrets of an Italian’s favorite vegetables.
+                            </p>
+                        </div>
+                        <a href="ingredients.html" class="section__link section__link_alternative" target="_blank">Let's see all ingredients</a>
+                    </div>
+                    <div class="flex-block__column flex-block__column_image">
+                        <img src="./images/ingredients-img.jpg" alt="fresh red tomatoes and green celery" class="flex-block__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section_parallax">
+            <div class="container_parallax">
+                <h2 class="visually-hidden">Bologna's Medieval City Center</h2>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="flex-block flex-block_reverse">
+                    <div class="flex-block__column">
+                        <h2 class="section__title">Variety of Italian Pasta</h2>
+                        <div>
+                            <p class="section__text">
+                               Italy is home to thousands of types of pasta, from well-known quills and tubes, to unusual shapes handmade from region to region. Know your gigli from your trofie with help from our guide to local pasta variations.
+                            </p>
+                            <p class="section__text">
+                                Every one of Italy’s 20 regions has a distinctive cuisine – partly shaped by climate and terrain, partly due to history. You’ll find truffles and creamy Gorgonzola in the mountainous northern region of Piedmont; cured meat and flavourful tomatoes in the fertile central region of Umbria; and artichokes and seafood in Sicily, at Italy’s southern tip.
+                            </p>
+                        </div>
+                        <a href="ingredients.html" class="section__link" target="_blank">Discover Italian pasta types</a>
+                    </div>
+                    <div class="flex-block__column flex-block__column_image">
+                        <img src="./images/pasta-img.jpg" alt="Different types of italian dry pasta" class="flex-block__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section  section_alternative">
+            <div class="container">
+                <div class="flex-block">
+                    <div class="flex-block__column">
+                        <h2 class="section__title">Traditional Italian Sweets</h2>
+                        <div>
+                            <p class="section__text">
+                                Italian desserts are trending right now and it’s easy to see why! With tiramisu and panna cotta, cannoli and semifreddo, we’re sure you can find a sweet treat that will impress the nonnas, the nannas plus any of your guests.
+                            </p>
+                        </div>
+                        <a href="ingredients.html" class="section__link section__link_alternative" target="_blank">Let's taste all</a>
+                    </div>
+                    <div class="flex-block__column flex-block__column_image">
+                        <img src="./images/sweets-img.jpg" alt="a tray with delicious italian cookies and cakes" class="flex-block__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+     <footer class="footer section">
+        <div class="container container_flex">
+            <div class="social social_footer">
+                <ul class="social__list social__list_footer">
+                    <li class="social__item"><a href="" class="social__link social__link_alternative social__link_facebook"></a></li>
+                    <li class="social__item"><a href="" class="social__link social__link_alternative social__link_instagram"></a></li>
+                    <li class="social__item"><a href="" class="social__link social__link_alternative social__link_youtube"></a></li>
+                </ul>
+            </div>
+            <div class="footer__contacts">
+                <h3 class="footer__title">Contact us</h3>
+                <a href="mailto:italian.taste@gmail.com" class="footer__contacts-link">italian.taste@gmail.com</a>
+                <a href="tel:+155555555555" class="footer__contacts-link">+155555555555</a>
+                <a href="https://github.com/NataliItaly" class="footer__author-link" target="_blank">This site is created by Nataliya Krylova</a>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item"><a href="ingredients.html" class="footer__link" target="_blank">Vegetables</a></li>
+                <li class="footer__item"><a href="pasta.html" class="footer__link" target="_blank">Pasta</a></li>
+                <li class="footer__item"><a href="sweet.html" class="footer__link" target="_blank">Sweets</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

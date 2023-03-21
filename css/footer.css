@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--hover-text-color);
+    color: var(--primary-color);
+}
+
+.footer__contacts {
+    text-align: center;
+}
+
+.footer__contacts-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.footer__link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.footer__author-link {
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
