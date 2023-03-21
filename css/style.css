@@ -1,3 +1,4 @@
+@import "./burger.css";
 @import "./container.css";
 @import "./header.css";
 @import "./social.css";
@@ -12,6 +13,7 @@
 :root {
     --primary-color: #EFDDB8;
     --secondary-color: #9E8042;
+    --accent-color: #957e50;
     --primary-text-color: #473B24;
     --hover-text-color: #55472c;
     --terziary-color: #F2EDE3;
@@ -41,6 +43,7 @@ h1,
 h2,
 h3 {
     font-family: 'Gabriela', serif;
+    color: var(--accent-color);
 }
 
 ul {

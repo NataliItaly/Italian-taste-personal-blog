@@ -1,6 +1,6 @@
 .button {
     display: inline-block;
-    width: 250px;
+    width: 25rem;
     padding: 1rem 3rem;
     background-color: transparent;
     border: 1px solid var(--primary-text-color);

@@ -15,16 +15,16 @@
 }
 
 .social__list_footer {
-    flex-direction: row;
+    gap: 1rem;
 }
 
 .social__link {
     display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 3rem;
     background-position: center;
-    background-size: contain;
-    filter: invert(53%) sepia(46%) saturate(434%) hue-rotate(2deg) brightness(88%) contrast(95%);
+    background-size: cover;
+    filter: invert(53%) sepia(9%) saturate(1743%) hue-rotate(2deg) brightness(93%) contrast(90%);
     transition: 0.4s;
 }
 
@@ -33,21 +33,41 @@
 }
 
 .social__link:hover {
-    filter: invert(53%) sepia(46%) saturate(434%) hue-rotate(2deg) brightness(108%) contrast(95%);
+    filter: invert(53%) sepia(9%) saturate(1743%) hue-rotate(2deg) brightness(123%) contrast(90%);
 }
 
 .social__link_alternative:hover {
-    filter: invert(93%) sepia(32%) saturate(720%) hue-rotate(340deg) brightness(96%) contrast(94%);
+    filter: invert(89%) sepia(20%) saturate(720%) hue-rotate(340deg) brightness(96%) contrast(94%);
 }
 
 .social__link_facebook {
-    background-image: url(./../images/facebook.svg);
+    background-image: url(./../images/social-icons/facebook.svg);
 }
 
 .social__link_instagram {
-    background-image: url(./../images/instagram.svg);
+    background-image: url(./../images/social-icons/instagram.svg);
 }
 
 .social__link_youtube {
-    background-image: url(./../images/youtube.svg);
+    background-size: 3.1rem;
+    background-image: url(./../images/social-icons/youtube.svg);
+}
+
+
+@media (max-width: 840px) {
+    .social {
+        top: 1rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .social {
+        top: -2rem;
+    }
+}
+
+@media (max-width: 440px) {
+    .social__list {
+        gap: 1rem;
+    }
 }
