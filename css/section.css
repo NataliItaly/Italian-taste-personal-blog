@@ -15,6 +15,15 @@
     padding: 0;
 }
 
+.section_secondary {
+    background-color: var();
+}
+
+.section_pasta {
+    background-image: url(./../images/page-pasta-bg.jpg);
+    background-size: cover;
+}
+
 .section__title {
     font-size: 5rem;
     padding: 3rem 0;
@@ -22,6 +31,10 @@
 
 .section__title_alternative {
     color: var(--primary-color);
+}
+
+.section__title_secondary {
+    color: var(--primary-text-color);
 }
 
 .section__text {

@@ -12,3 +12,11 @@
 .parallax_ingredients {
     background-image: url(./../images/parallax/parallax-ingredients.JPG);
 }
+
+.parallax_pasta {
+    background-image: url(./../images/parallax/parallax-pasta.webp);
+}
+
+.parallax_sea {
+    background-image: url(./../images/parallax/parallax-sea.jpg);
+}
