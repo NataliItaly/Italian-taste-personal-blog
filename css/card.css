@@ -11,6 +11,10 @@
     transition: 0.4s ease-in;
 }
 
+.card_alternative {
+    background-color: var(--accent-color);
+}
+
 .card:hover {
     box-shadow: 5px 5px 10px rgba(71, 59, 36, 0.2);
 }
@@ -24,6 +28,10 @@
     text-transform: uppercase;
     font-size: 1.8rem;
     padding: 1.5rem 0 1rem;
+}
+
+.card__title_alternative {
+    color: var(--primary-color);
 }
 
 .card__image-wrapper {

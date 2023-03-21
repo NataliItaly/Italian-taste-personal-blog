@@ -8,6 +8,8 @@
 @import "./block-grid.css";
 @import "./button.css";
 @import "./card.css";
+@import "./parallax.css";
+@import "./visualy-hidden.css";
 @import "./footer.css";
 
 :root {
@@ -53,3 +55,4 @@ ul {
 a {
     color: inherit;
 }
+

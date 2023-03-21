@@ -1,0 +1,14 @@
+.parallax {
+    height: 40rem;
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.parallax_main {
+    background-image: url(./../images/parallax/parallax-main.JPG);
+}
+
+.parallax_ingredients {
+    background-image: url(./../images/parallax/parallax-ingredients.JPG);
+}

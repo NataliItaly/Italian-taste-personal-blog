@@ -5,14 +5,6 @@
     position: relative;
 }
 
-.container_parallax {
-    height: 40rem;
-    background-image: url(./../images/parallax-index.jpg);
-    background-size: cover;
-    background-position-y: center;
-    background-attachment: fixed;
-}
-
 @media (max-width: 380px) {
     .container {
         padding: 0 1.5rem;
