@@ -11,10 +11,6 @@
     color: var(--primary-color);
 }
 
-.section_parallax {
-    padding: 0;
-}
-
 .section_secondary {
     background-color: var();
 }

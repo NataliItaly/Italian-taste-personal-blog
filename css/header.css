@@ -4,9 +4,18 @@
     background-color: var(--primary-color);
 }
 
+.header_alternative {
+    background-color: var(--hover-text-color);
+    color: var(--primary-color);
+}
+
 .header__title {
     font-size: 8rem;
     padding-bottom: 3rem;
+}
+
+.header__title_alternative {
+    color: var(--primary-color);
 }
 
 .header__nav {
@@ -46,6 +55,10 @@
 
 .header__link:hover {
     color: var(--hover-text-color);
+}
+
+.header__link_alternative:hover {
+    color: inherit;
 }
 
 .header__link:hover::after {
