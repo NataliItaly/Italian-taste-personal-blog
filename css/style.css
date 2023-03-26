@@ -19,6 +19,7 @@
     --primary-text-color: #473B24;
     --hover-text-color: #55472c;
     --terziary-color: #F2EDE3;
+    --primary-gradient: linear-gradient(90deg, #55472c, #473B24);
 }
 
 * {

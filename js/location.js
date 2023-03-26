@@ -10,7 +10,7 @@ renderCards(
   desertsList,
   "deserts",
   desertsCardsWrapper,
-  "",
+  "deserts from",
   "italian desert from"
 );
 

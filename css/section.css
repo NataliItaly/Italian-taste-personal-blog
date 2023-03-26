@@ -7,7 +7,7 @@
 }
 
 .section_alternative {
-    background-color: var(--hover-text-color);
+    background-image: var(--primary-gradient);
     color: var(--primary-color);
 }
 

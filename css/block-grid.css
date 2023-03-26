@@ -7,3 +7,19 @@
     padding: 4rem 0;
 }
 
+.block-grid_alternative .card {
+    background-color: var(--accent-color);
+}
+
+.block-grid_secondary .card {
+    background-color: var(--primary-color);
+}
+
+.block-grid_terziary {
+    color: var(--primary-color);
+}
+
+.block-grid_terziary .card {
+    background-image: var(--primary-gradient);
+}
+

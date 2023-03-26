@@ -13,14 +13,6 @@
     transition: 0.4s ease-in;
 }
 
-.card_alternative {
-    background-color: var(--accent-color);
-}
-
-.card_secondary {
-    background-color:  var(--primary-color);
-}
-
 .card_hidden {
     display: none;
 }
@@ -35,17 +27,10 @@
 
 .card__title {
     font-family: inherit;
+    color: inherit;
     text-transform: uppercase;
     font-size: 1.8rem;
     padding: 1.5rem 0 1rem;
-}
-
-.card__title_alternative {
-    color: var(--primary-color);
-}
-
-.card__title_secondary {
-    color: var(--primary-text-color);
 }
 
 .card__image-wrapper {
