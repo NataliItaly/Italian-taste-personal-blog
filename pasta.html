@@ -36,9 +36,9 @@
             </li>
             <li class="header__item">
               <a
-                href="ingredients.html"
+                href="vegetables.html"
                 class="header__link header__link_alternative"
-                >Ingredients</a
+                >vegetables</a
               >
             </li>
             <li class="header__item">
@@ -66,18 +66,21 @@
               <a
                 href=""
                 class="social__link social__link_alternative social__link_facebook"
+                target="_blank"
               ></a>
             </li>
             <li class="social__item">
               <a
                 href=""
                 class="social__link social__link_alternative social__link_instagram"
+                target="_blank"
               ></a>
             </li>
             <li class="social__item">
               <a
                 href=""
                 class="social__link social__link_alternative social__link_youtube"
+                target="_blank"
               ></a>
             </li>
           </ul>
@@ -121,13 +124,13 @@
                   retain their Italian pasta names!
                 </p>
               </div>
-              <a href="#ingredients" class="section__link" target="_blank"
+              <a href="#vegetables" class="section__link"
                 >Discover recipes with vegetables</a
               >
             </div>
             <div class="flex-block__column flex-block__column_image">
               <img
-                src="./images/page-pasta-img.jpg"
+                src="./images/pasta/page-pasta-img.jpg"
                 alt="italian dry spaghetti decorated with cherry tomatoes"
                 class="flex-block__image"
               />
@@ -150,8 +153,8 @@
       <section class="section section_center section_secondary" id="recipes">
         <div class="container">
           <h2 class="section__title section__title_secondary">Pasta recipes</h2>
-          <ul class="block-grid">
-            <li class="block-grid__item ingredients-card">
+          <ul class="block-grid" id="pasta-cards-wrapper">
+            <!-- <li class="block-grid__item vegetables-card">
               <a href="" class="block-grid__link card card_secondary">
                 <h3 class="card__title card__title_secondary">
                   Penne rigate with ragout
@@ -168,7 +171,7 @@
                 </div>
               </a>
             </li>
-            <li class="block-grid__item ingredients-card">
+            <li class="block-grid__item vegetables-card">
               <a href="" class="block-grid__link card card_secondary">
                 <h3 class="card__title card__title_secondary">
                   Spaghetti with tomato sause
@@ -185,7 +188,7 @@
                 </div>
               </a>
             </li>
-            <li class="block-grid__item ingredients-card">
+            <li class="block-grid__item vegetables-card">
               <a href="" class="block-grid__link card card_secondary">
                 <h3 class="card__title card__title_secondary">
                   Pasta cacio cheese and pepper
@@ -202,7 +205,7 @@
                 </div>
               </a>
             </li>
-            <li class="block-grid__item ingredients-card">
+            <li class="block-grid__item vegetables-card">
               <a href="" class="block-grid__link card card_secondary">
                 <h3 class="card__title card__title_secondary">
                   Pasta al pesto di genovese
@@ -219,7 +222,7 @@
                 </div>
               </a>
             </li>
-            <li class="block-grid__item ingredients-card">
+            <li class="block-grid__item vegetables-card">
               <a href="" class="block-grid__link card card_secondary">
                 <h3 class="card__title card__title_secondary">
                   Homemade tordellini
@@ -236,7 +239,7 @@
                 </div>
               </a>
             </li>
-            <li class="block-grid__item ingredients-card">
+            <li class="block-grid__item vegetables-card">
               <a href="" class="block-grid__link card card_secondary">
                 <h3 class="card__title card__title_secondary">Lasagna</h3>
                 <p class="card__date">
@@ -250,219 +253,14 @@
                   />
                 </div>
               </a>
-            </li>
-            <!-- <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Leek</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/7.jpg"
-                    alt="green long crispy leek"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Onion</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/8.jpg"
-                    alt="red italian onion on a plate"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Parsley</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/9.jpg"
-                    alt="a bunch of fresh green crispy parsley"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Beans</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/10.jpg"
-                    alt="plenty of white and red italian beans"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Artichoke</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/11.jpg"
-                    alt="a gorgeous green artichoke"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Broccoli</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/12.jpg"
-                    alt="lush green peace of broccoli"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Beet</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/13.jpg"
-                    alt="juicy beet with long green leaves"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Hot pepper</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/14.jpg"
-                    alt="a heap red hot peppers"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Cabbage</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/15.jpg"
-                    alt="a lot of green crispy cabbages"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Green salad</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/16.jpg"
-                    alt="a heap of green crispy green salad"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">
-                  Sweet pepper
-                </h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/17.jpg"
-                    alt="gorgeous red guicy peppers"
-                    class="card__image"
-                  />
-                </div>
-              </a>
-            </li>
-            <li
-              class="block-grid__item ingredients-card visually-hidden_temporary"
-            >
-              <a href="" class="block-grid__link card card_secondary">
-                <h3 class="card__title card__title_secondary">Asparagus</h3>
-                <p class="card__date">
-                  <time class="card__time">15.11.2022</time>
-                </p>
-                <div class="card__image-wrapper">
-                  <img
-                    src="./images/ingredients-images/18.jpg"
-                    alt="a bunch of fresh green asparagus in a bucket"
-                    class="card__image"
-                  />
-                </div>
-              </a>
             </li> -->
+
           </ul>
           <button
             class="button button_secondary"
-            id="ingredients-generation-btn"
+            id="pasta-cards-btn"
           >
-            See more recipes
+            See more
           </button>
         </div>
       </section>
@@ -478,7 +276,7 @@
         </div>
       </section>
 
-      <section class="section" id="ingredients">
+      <section class="section" id="vegetables">
         <div class="container">
           <div class="flex-block-2 flex-block-2_reverse">
             <div class="flex-block__column">
@@ -505,15 +303,14 @@
                 </p>
               </div>
               <a
-                href="ingredients.html"
+                href="vegetables.html"
                 class="section__link section__link_alternative"
-                target="_blank"
                 >Learn more about Mediterranean diet</a
               >
             </div>
             <div class="flex-block__column flex-block__column_image">
               <img
-                src="./images/pasta-section-img.jpg"
+                src="./images/pasta/pasta-section-img.jpg"
                 alt="fresh red tomatoes and green celery"
                 class="flex-block__image"
               />
@@ -536,20 +333,23 @@
             <ul class="social__list social__list_footer">
               <li class="social__item">
                 <a
-                  href=""
+                  href="https://www.facebook.com/"
                   class="social__link social__link_alternative social__link_facebook"
+                  target="_blank"
                 ></a>
               </li>
               <li class="social__item">
                 <a
-                  href=""
+                  href="https://www.instagram.com/"
                   class="social__link social__link_alternative social__link_instagram"
+                  target="_blank"
                 ></a>
               </li>
               <li class="social__item">
                 <a
-                  href=""
+                  href="https://www.youtube.com/"
                   class="social__link social__link_alternative social__link_youtube"
+                  target="_blank"
                 ></a>
               </li>
             </ul>
@@ -570,7 +370,7 @@
               <a href="index.html#about" class="footer__link">About</a>
             </li>
             <li class="footer__item">
-              <a href="#ingredients" class="footer__link">Vegetables</a>
+              <a href="vegetables.html" class="footer__link">Vegetables</a>
             </li>
             <li class="footer__item">
               <a href="pasta.html" class="footer__link">Pasta</a>
@@ -591,5 +391,6 @@
 
     <script src="js/burger.js"></script>
     <script src="js/cards.js"></script>
+    <script src="js/pasta.js"></script>
   </body>
 </html>

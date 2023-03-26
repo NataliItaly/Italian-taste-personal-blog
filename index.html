@@ -27,7 +27,7 @@
               <a href="#diary" class="header__link">Diary</a>
             </li>
             <li class="header__item">
-              <a href="#ingredients" class="header__link">Ingredients</a>
+              <a href="#vegetables" class="header__link">Vegetables</a>
             </li>
             <li class="header__item">
               <a href="#pasta" class="header__link">Pasta</a>
@@ -43,13 +43,22 @@
         <div class="social">
           <ul class="social__list">
             <li class="social__item">
-              <a href="" class="social__link social__link_facebook"></a>
+              <a
+                href="https://www.facebook.com/"
+                class="social__link social__link_facebook"
+              ></a>
             </li>
             <li class="social__item">
-              <a href="" class="social__link social__link_instagram"></a>
+              <a
+                href="https://www.instagram.com/"
+                class="social__link social__link_instagram"
+              ></a>
             </li>
             <li class="social__item">
-              <a href="" class="social__link social__link_youtube"></a>
+              <a
+                href="https://www.youtube.com/"
+                class="social__link social__link_youtube"
+              ></a>
             </li>
           </ul>
         </div>
@@ -94,7 +103,7 @@
             <div class="flex-block__column flex-block__column_image">
               <img
                 class="flex-block__image"
-                src="./images/about-img.jpg"
+                src="./images/main/about-img.jpg"
                 alt="Old tower in Positano, Amalfy coast, Mediterranean sea"
               />
             </div>
@@ -102,11 +111,11 @@
         </div>
       </section>
 
-      <section class="section section_center" id="about">
+      <section class="section section_center" id="diary">
         <div class="container">
           <h2 class="section__title">Diary</h2>
-          <ul class="block-grid">
-            <li class="block-grid__item">
+          <ul class="block-grid" id="diary-cards-wrapper">
+            <!-- <li class="block-grid__item">
               <a href="" class="block-grid__link card">
                 <h3 class="card__title">Choose season's vegetables</h3>
                 <p class="card__date">
@@ -195,17 +204,15 @@
                   />
                 </div>
               </a>
-            </li>
+            </li> -->
           </ul>
-          <button class="button" id="cards-generation-btn">
-            Find more posts
-          </button>
+          <button class="button" id="diary-cards-btn">Show more</button>
         </div>
       </section>
 
       <section
-        class="section section_ingredients section_alternative"
-        id="ingredients"
+        class="section section_vegetables section_alternative"
+        id="vegetables"
       >
         <div class="container">
           <div class="flex-block-2 flex-block-2_reverse">
@@ -225,15 +232,14 @@
                 </p>
               </div>
               <a
-                href="ingredients.html"
+                href="vegetables.html"
                 class="section__link section__link_alternative"
-                target="_blank"
-                >Let's see all ingredients</a
+                >Let's see all vegetables</a
               >
             </div>
             <div class="flex-block__column flex-block__column_image">
               <img
-                src="./images/ingredients-img.jpg"
+                src="./images/main/vegetables-img.jpg"
                 alt="fresh red tomatoes and green celery"
                 class="flex-block__image"
               />
@@ -274,13 +280,13 @@
                   artichokes and seafood in Sicily, at Italy’s southern tip.
                 </p>
               </div>
-              <a href="pasta.html" class="section__link" target="_blank"
+              <a href="pasta.html" class="section__link"
                 >Discover Italian pasta types</a
               >
             </div>
             <div class="flex-block__column flex-block__column_image">
               <img
-                src="./images/pasta-img.jpg"
+                src="./images/main/pasta-img.jpg"
                 alt="Different types of italian dry pasta"
                 class="flex-block__image"
               />
@@ -307,13 +313,13 @@
               <a
                 href="deserts.html"
                 class="section__link section__link_alternative"
-                target="_blank"
-                >Let's taste all</a
+              >
+                Let's taste all</a
               >
             </div>
             <div class="flex-block__column flex-block__column_image">
               <img
-                src="./images/deserts-img.jpg"
+                src="./images/main/deserts-img.jpg"
                 alt="a tray with delicious italian cookies and cakes"
                 class="flex-block__image"
               />
@@ -330,20 +336,23 @@
             <ul class="social__list social__list_footer">
               <li class="social__item">
                 <a
-                  href=""
+                  href="https://www.facebook.com/"
                   class="social__link social__link_alternative social__link_facebook"
+                  target="_blank"
                 ></a>
               </li>
               <li class="social__item">
                 <a
-                  href=""
+                  href="https://www.instagram.com/"
                   class="social__link social__link_alternative social__link_instagram"
+                  target="_blank"
                 ></a>
               </li>
               <li class="social__item">
                 <a
-                  href=""
+                  href="https://www.youtube.com/"
                   class="social__link social__link_alternative social__link_youtube"
+                  target="_blank"
                 ></a>
               </li>
             </ul>
@@ -364,7 +373,7 @@
               <a href="#about" class="footer__link">About</a>
             </li>
             <li class="footer__item">
-              <a href="#ingredients" class="footer__link">Vegetables</a>
+              <a href="#vegetables" class="footer__link">Vegetables</a>
             </li>
             <li class="footer__item">
               <a href="#pasta" class="footer__link">Pasta</a>
@@ -384,5 +393,7 @@
     </footer>
 
     <script src="js/burger.js"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/diary.js"></script>
   </body>
 </html>

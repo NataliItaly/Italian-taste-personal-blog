@@ -1,47 +1,47 @@
 .parallax {
-    height: 45rem;
-    padding: 0;
-    background-size: cover;
-    background-position-y: center;
-    background-attachment: fixed;
+  height: 45rem;
+  padding: 0;
+  background-size: cover;
+  background-position-y: center;
+  background-attachment: fixed;
 }
 
 .parallax_short {
-    height: 30rem;
+  height: 30rem;
 }
 
 .parallax_main {
-    background-image: url(./../images/parallax/parallax-main.JPG);
+  background-image: url(./../images/parallax/parallax-main.JPG);
 }
 
-.parallax_ingredients {
-    background-image: url(./../images/parallax/parallax-ingredients.JPG);
+.parallax_vegetables {
+  background-image: url(./../images/parallax/parallax-vegetables.JPG);
 }
 
 .parallax_pasta_1 {
-    background-image: url(./../images/parallax/parallax-pasta.webp);
+  background-image: url(./../images/parallax/parallax-pasta.webp);
 }
 
 .parallax_pasta_2 {
-    background-image: url(./../images/parallax/parallax-pasta2.webp);
+  background-image: url(./../images/parallax/parallax-pasta2.webp);
 }
 
 .parallax_sea {
-    background-image: url(./../images/parallax/parallax-sea.jpg);
+  background-image: url(./../images/parallax/parallax-sea.jpg);
 }
 
 .parallax_sweet_1 {
-    background-image: url(./../images/parallax/parallax-sweet1.jpg);
+  background-image: url(./../images/parallax/parallax-sweet1.jpg);
 }
 
 .parallax_sweet_2 {
-    background-image: url(./../images/parallax/parallax-sweet2.jpg);
+  background-image: url(./../images/parallax/parallax-sweet2.jpg);
 }
 
 .parallax_sweet_3 {
-    background-image: url(./../images/parallax/parallax-sweet3.jpg);
+  background-image: url(./../images/parallax/parallax-sweet3.jpg);
 }
 
 .parallax_sweet_4 {
-    background-image: url(./../images/parallax/parallax-sweet4.jpg);
+  background-image: url(./../images/parallax/parallax-sweet4.jpg);
 }
