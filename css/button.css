@@ -22,7 +22,6 @@
 }
 
 .button:hover {
-    /* background-color: var(--primary-text-color); */
     background-image: var(--primary-gradient);
     color: var(--primary-color);
     transform: translateY(-2px);
@@ -30,5 +29,4 @@
 
 .button_alternative:hover {
     background-color: var(--primary-color);
-    color: var(--primary-text-color);
 }

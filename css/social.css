@@ -56,13 +56,13 @@
 
 @media (max-width: 840px) {
     .social {
-        top: 1rem;
+        top: -1.5rem;
     }
 }
 
 @media (max-width: 520px) {
     .social {
-        top: -2rem;
+        top: -3rem;
     }
 }
 

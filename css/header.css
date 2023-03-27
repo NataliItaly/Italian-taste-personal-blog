@@ -66,10 +66,6 @@
 }
 
 @media (max-width: 840px) {
-    .header {
-        padding: 4rem 0 0 0;
-    }
-
     .header__nav {
         position: fixed;
         z-index: 2;
