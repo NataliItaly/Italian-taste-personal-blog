@@ -12,10 +12,7 @@ const pastaList = [
   "Linguine and speck",
   "Pici with garlic sause"
 ];
-/*'bread with cheese and dry tomatoes', "Italian shortbread cookies",
-  "Easy and cheap vellutata",
-  "Homemade pizza with tomatoes",
-  "Fragrant polpettas recipe",*/
+
 const pastaCardsWrapper = document.getElementById(
   "pasta-cards-wrapper"
 );
@@ -31,7 +28,7 @@ renderCards(
 );
 
 let isAllPastaCards = false;
-const pastaCards = document.querySelectorAll(".pasta-card");
+const pastaItems = document.querySelectorAll(".pasta-item");
 
 pastaCardsBtn.addEventListener("click", function () {
   if (!isAllPastaCards) {
@@ -39,6 +36,6 @@ pastaCardsBtn.addEventListener("click", function () {
   } else {
     this.textContent = "Show more";
   }
-  showCards(isAllPastaCards, pastaCards);
+  showCards(isAllPastaCards, pastaItems);
   isAllPastaCards = !isAllPastaCards;
 });

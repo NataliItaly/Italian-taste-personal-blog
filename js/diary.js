@@ -28,7 +28,7 @@ renderCards(
 );
 
 let isAllDiaryCards = false;
-const diaryCards = document.querySelectorAll(".main-card");
+const diaryCards = document.querySelectorAll(".main-item");
 
 diaryCardsBtn.addEventListener("click", function () {
   if (!isAllDiaryCards) {

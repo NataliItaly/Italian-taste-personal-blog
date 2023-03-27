@@ -8,14 +8,14 @@ const desertsCardsBtn = document.getElementById("deserts-cards-btn");
 
 renderCards(
   desertsList,
-  "deserts",
+  "Deserts",
   desertsCardsWrapper,
-  "deserts from",
-  "italian desert from"
+  "Deserts from",
+  "Italian desert from"
 );
 
 let isAllDesertCards = false;
-const desertsCards = document.querySelectorAll(".deserts-card");
+const desertsCards = document.querySelectorAll(".deserts-item");
 
 desertsCardsBtn.addEventListener("click", function () {
   if (!isAllDesertCards) {

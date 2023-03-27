@@ -34,7 +34,7 @@ renderCards(
   );
 
 let isAllVegetableCards = false;
-const vegetablesCards = document.querySelectorAll(".vegetables-card");
+const vegetablesItems = document.querySelectorAll(".vegetables-item");
 
 vegetablesCardsBtn.addEventListener("click", function() {
   if (!isAllVegetableCards) {
@@ -43,9 +43,11 @@ vegetablesCardsBtn.addEventListener("click", function() {
   else {
     this.textContent = "Show more";
   }
-  showCards (isAllVegetableCards, vegetablesCards);
+  showCards (isAllVegetableCards, vegetablesItems);
   isAllVegetableCards = !isAllVegetableCards;
 });
+
+
 
 
 
