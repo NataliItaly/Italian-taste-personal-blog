@@ -43,6 +43,10 @@ body {
     color: var(--primary-text-color);
 }
 
+.block {
+    overflow-y: hidden;
+}
+
 h1,
 h2,
 h3 {

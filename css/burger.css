@@ -24,6 +24,10 @@
     background-color: var(--accent-color);
 }
 
+.burger__line_alternate {
+    background-color: var(--primary-color);
+}
+
 .burger__line:first-of-type {
     top: 0;
 }

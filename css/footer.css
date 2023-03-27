@@ -1,7 +1,12 @@
 .footer {
-    background-color: var(--hover-text-color);
     background-image: var(--primary-gradient);
     color: var(--primary-color);
+}
+
+.footer_alternative {
+    background-image: none;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
 }
 
 .footer__contacts {
@@ -9,7 +14,7 @@
 }
 
 .footer__title {
-    color: var(--primary-color);
+    color: inherit;
     padding-bottom: 1rem;
 }
 
@@ -39,6 +44,11 @@
 
 .footer__link:hover::after {
     width: 100%;
+}
+
+.footer__link_alternative::before,
+.footer__link_alternative::after {
+    background-color: var(--primary-text-color);
 }
 
 .footer__author-link {
