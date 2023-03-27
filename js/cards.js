@@ -21,9 +21,9 @@ function renderCards(arr, element, parent, titleText, altText) {
       li.classList.add("card_hidden");
     }
 
-    let a = document.createElement('a');
+    let a = document.createElement("a");
     a.classList.add(`card`, `${element}-card`);
-    a.href = '#';
+    a.href = "#";
 
     let imgSrc = `./images/${element}/cards/${arr[i]}.jpg`;
     let imgAlt = `${altText} ${arr[i]}`;
@@ -38,7 +38,7 @@ function renderCards(arr, element, parent, titleText, altText) {
                 src="${imgSrc}"
                 alt="${imgAlt}"
                 class="card__image"
-              />
+             >
             </div>
             `;
 
@@ -55,10 +55,10 @@ function renderCards(arr, element, parent, titleText, altText) {
 
 function showCards(check, cards) {
   if (!check) {
-    console.log('f')
+    console.log("f");
     cards.forEach((card) => card.classList.remove("card_hidden"));
   } else {
-    console.log('t')
+    console.log("t");
     cards.forEach((card, index) => {
       if (index > 5) {
         card.classList.add("card_hidden");
@@ -66,4 +66,3 @@ function showCards(check, cards) {
     });
   }
 }
-

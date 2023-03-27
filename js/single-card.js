@@ -19,7 +19,7 @@ function generateSingleCard(title, src, alt) {
                             src="${src}"
                             alt="${alt}"
                             class="card__image"
-                        />
+                       >
                     </div>
                 </div>
                 <input type="checkbox" class="single-card__close" id="single-card-close">
@@ -30,10 +30,9 @@ function generateSingleCard(title, src, alt) {
   document.body.append(singleCard);
 
   const checkbox = document.getElementById("single-card-close");
-  checkbox.addEventListener('change', function() {
-      if (checkbox.checked) {
-          singleCard.remove();
-        }
-    });
+  checkbox.addEventListener("change", function () {
+    if (checkbox.checked) {
+      singleCard.remove();
+    }
+  });
 }
-
