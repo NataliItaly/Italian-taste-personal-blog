@@ -1,17 +1,16 @@
-@import "./burger.css";
-@import "./container.css";
-@import "./header.css";
-@import "./social.css";
-@import "./main.css";
-@import "./section.css";
-@import "./flex-block.css";
 @import "./block-grid.css";
+@import "./burger.css";
 @import "./button.css";
 @import "./card.css";
-@import "./parallax.css";
-@import "./single-card.css";
-@import "./visualy-hidden.css";
+@import "./container.css";
+@import "./flex-block.css";
 @import "./footer.css";
+@import "./header.css";
+@import "./parallax.css";
+@import "./section.css";
+@import "./single-card.css";
+@import "./social.css";
+@import "./visualy-hidden.css";
 
 :root {
     --primary-color: #EFDDB8;

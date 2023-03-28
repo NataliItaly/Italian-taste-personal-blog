@@ -10,7 +10,7 @@ function generateSingleCard(title, src, alt) {
                         </p>
                         <p class="single-card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium unde aut impedit accusantium repudiandae similique sapiente velit, maxime corporis ad veniam nam consectetur facere dolor officia veritatis eos quibusdam
                         </p>
-                        <p class="card__date single-card__text">
+                        <p class="card__date  single-card__date single-card__text">
                         <time class="card__time">${renderDate()}</time>
                         </p>
                     </div>
@@ -18,8 +18,8 @@ function generateSingleCard(title, src, alt) {
                         <img
                             src="${src}"
                             alt="${alt}"
-                            class="card__image"
-                       >
+                            class="single-card__image"
+                        >
                     </div>
                 </div>
                 <input type="checkbox" class="single-card__close" id="single-card-close">
@@ -28,11 +28,13 @@ function generateSingleCard(title, src, alt) {
         `;
   singleCard.insertAdjacentHTML("afterbegin", singleCardContent);
   document.body.append(singleCard);
+  BODY.classList.add('block');
 
   const checkbox = document.getElementById("single-card-close");
   checkbox.addEventListener("change", function () {
     if (checkbox.checked) {
       singleCard.remove();
+      BODY.classList.remove('block');
     }
   });
 }

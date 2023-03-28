@@ -120,10 +120,16 @@
               >
             </div>
             <div class="flex-block__column flex-block__column_image">
-              <img
+              <picture>
+                <source srcset="./images/vegetables/1.webp" type="image/webp"
+                ></source>
+                <source srcset="./images/vegetables/1.jpg" type="image/jpg"
+                ></source>
+                <img
                 src="./images/vegetables/1.jpg"
                 alt="Tuscany landscape with vineyards and green hills in the distance"
                 class="flex-block__image">
+              </picture>
             </div>
           </div>
         </div>
@@ -149,7 +155,7 @@
       </section>
 
       <section
-        class="section section_alternative parallax parallax_vegetables"
+        class="section parallax parallax_vegetables"
         title="Ischia Island"
       >
         <div class="container">
