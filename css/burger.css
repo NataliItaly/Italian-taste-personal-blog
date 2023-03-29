@@ -22,6 +22,7 @@
     position: absolute;
     left: 0;
     background-color: var(--accent-color);
+    transition: 0.4s;
 }
 
 .burger__line_alternate {
@@ -38,6 +39,22 @@
 
 .burger__line:last-of-type {
     bottom: 0;
+}
+
+.burger__button_open .burger__line:first-of-type {
+    transform: rotate(-45deg);
+    transform-origin: right;
+    width: 33px;
+}
+
+.burger__button_open .burger__line:nth-child(2) {
+    opacity: 0;
+}
+
+.burger__button_open .burger__line:last-of-type {
+    transform: rotate(45deg);
+    transform-origin:  right;
+    width: 33px;
 }
 
 @media (max-width: 840px) {

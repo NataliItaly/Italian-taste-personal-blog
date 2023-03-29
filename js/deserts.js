@@ -8,7 +8,7 @@ const desertsCardsBtn = document.getElementById("deserts-cards-btn");
 
 renderCards(
   desertsList,
-  "Deserts",
+  "deserts",
   desertsCardsWrapper,
   "Deserts from",
   "Italian desert from"

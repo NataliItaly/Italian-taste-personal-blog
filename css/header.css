@@ -12,6 +12,7 @@
 .header__title {
     font-size: 8rem;
     padding-bottom: 3rem;
+    text-shadow:  0 0 #000;
 }
 
 .header__title_alternative {

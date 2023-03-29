@@ -24,6 +24,7 @@
 .section__title {
     font-size: 5rem;
     padding: 3rem 0;
+    text-shadow: 0 0 #000;
 }
 
 .section__title_alternative {

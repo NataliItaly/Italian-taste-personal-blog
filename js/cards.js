@@ -34,11 +34,10 @@ function renderCards(arr, element, parent, titleText, altText) {
               <time class="card__time">${renderDate()}</time>
             </p>
             <div class="card__image-wrapper">
-              <img
+                <img
                 src="${imgSrc}"
                 alt="${imgAlt}"
-                class="card__image"
-             >
+                class="card__image">
             </div>
             `;
 
@@ -55,7 +54,6 @@ function renderCards(arr, element, parent, titleText, altText) {
 
 function showCards(check, cards) {
   if (!check) {
-    console.log("f");
     cards.forEach((card) => card.classList.remove("card_hidden"));
   } else {
     console.log("t");
