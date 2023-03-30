@@ -1,0 +1,102 @@
+.blockquote {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.blockquote-block {
+    margin: 0 auto;
+    max-width: 800px;
+    position: relative;
+    padding-left: 100px;
+}
+
+.blockquote-block::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 70px;
+    height: 70px;
+    background-image: url(./../images/quotes-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: invert(47%) sepia(14%) saturate(1334%) hue-rotate(0deg) brightness(88%) contrast(77%);
+}
+
+.blockquote__text {
+    font-family: 'Gabriela', serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--hover-text-color);
+    text-shadow: 0 0 #000;
+    padding: 1rem 0;
+}
+
+.blockquote__translation {
+    font-family: inherit;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: inherit;
+    text-shadow: 0 0 white;
+    text-transform: uppercase;
+}
+
+.blockquote__cite {
+    font-family: 'Gabriela', serif;
+    color: var(--hover-text-color);
+    text-shadow: 0 0 #000;
+    text-align: right;
+}
+
+@media (max-width: 840px) {
+    .blockquote__text {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 670px) {
+    .blockquote-block {
+        padding-left: 50px;
+    }
+
+    .blockquote-block::before {
+        width: 50px;
+        height: 50px;
+    }
+
+    .blockquote__text {
+        font-size: 3rem;
+    }
+
+    .blockquote__translation {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .blockquote-block {
+        max-width: 300px;
+        padding-left: 30px;
+    }
+
+    .blockquote-block::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .blockquote__text {
+        font-size: 3rem;
+    }
+
+    .blockquote__translation {
+        font-size: 1.4rem;
+    }
+
+    .blockquote__cite {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+}
+
