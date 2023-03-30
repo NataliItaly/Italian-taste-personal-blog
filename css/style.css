@@ -17,7 +17,7 @@
     --secondary-color: #9E8042;
     --accent-color: #957e50;
     --primary-text-color: #473B24;
-    --hover-text-color: #55472c;
+    --hover-text-color: #856f46;   /*#55472c;*/
     --terziary-color: #F2EDE3;
     --primary-gradient: linear-gradient(90deg, #55472c, #473B24);
 }
@@ -50,7 +50,7 @@ h1,
 h2,
 h3 {
     font-family: 'Gabriela', serif;
-    color: var(--accent-color);
+    color: var(--hover-text-color);
 }
 
 ul {
